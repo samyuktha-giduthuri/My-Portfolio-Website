@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Myself</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+        html{
+        background-color: black;
+    }
+    .about{
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-top: 10%;
+        position: absolute;
+    }
+    .about h1{
+        font-size: 50px;
+        color: white;
+        margin-bottom: 50px;
+        background: black;
+        position: relative;
+        animation: text 3s 1;
+    }
+
+    @keyframes text{
+        0%{
+            color: black;
+            margin-bottom: 30px;
+        }
+        30%{
+            letter-spacing: 25px;
+            margin-bottom: 100px;
+        }
+        85%{
+            letter-spacing: 8px;
+        }
+    }
+    span{
+        color:rgb(239, 6, 239);
+    }
+
+    .about p{
+        color: aliceblue;
+        line-height: 27px;
+        font-size: 30px;
+        background: black;
+    }
+    .about:hover{
+        cursor: pointer;
+    }
+    .about p:hover{
+        color: rgb(1, 98, 168);
+    }
+</style>
+<body>
+    <div class="about">
+        <h1>About <span>Myself</span></h1>
+        <p>Highly motivated Junior AWS intern with a passion for automation. Skilled in designing and implementing
+            cost-effective cloud solutions. Proven ability to monitor and maintain cloud infrastructure for optimal
+            performance. Proficient in identifying and resolving issues before they impact users. Eager to contribute
+            to a dynamic team and learn from experienced professionals.<br> Developed and designed web pages using HTML, CSS, and JavaScript using a web technology.
+        </p>
+    </div>
+</body>
+</html>
